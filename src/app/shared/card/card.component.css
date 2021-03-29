@@ -1,5 +1,6 @@
-div { 
+p { 
     font-size: 70px;
     margin-top: 200px;
     text-align: center;
+    display: inline-block;
 }

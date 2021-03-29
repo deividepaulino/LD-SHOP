@@ -18,6 +18,7 @@ import { StatusPedidoComponent } from './checkout/status-pedido/status-pedido.co
 import { AuthService } from './autenticacao/login/auth.service';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,

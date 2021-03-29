@@ -12,6 +12,9 @@ import { CarrinhoComponent } from './shared/card/carrinho/carrinho.component';
 import { LoginComponent } from './autenticacao/login/login.component';
 import { CadastroComponent } from './autenticacao/cadastro/cadastro.component';
 import { FooterComponent } from './shared/card/footer/footer.component';
+import { RevisaoComponent } from './checkout/revisao/revisao.component';
+import { FormaDePagamentoComponent } from './checkout/forma-de-pagamento/forma-de-pagamento.component';
+import { StatusPedidoComponent } from './checkout/status-pedido/status-pedido.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { FooterComponent } from './shared/card/footer/footer.component';
     CarrinhoComponent,
     LoginComponent,
     CadastroComponent,
-    FooterComponent
+    FooterComponent,
+    RevisaoComponent,
+    FormaDePagamentoComponent,
+    StatusPedidoComponent
   ],
   imports: [
     BrowserModule,

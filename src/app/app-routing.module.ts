@@ -8,6 +8,9 @@ import { ContatoComponent } from './shared/card/contato/contato.component';
 import { ProdutosComponent } from './shared/card/produtos/produtos.component';
 import { FooterComponent } from './shared/card/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
+import { StatusPedidoComponent } from './checkout/status-pedido/status-pedido.component';
+import { FormaDePagamentoComponent } from './checkout/forma-de-pagamento/forma-de-pagamento.component';
+import { RevisaoComponent } from './checkout/revisao/revisao.component';
 
 const routes: Routes = [
 
@@ -18,7 +21,10 @@ const routes: Routes = [
   { path: 'contato', component: ContatoComponent  },
   { path: 'login', component:   LoginComponent},
   { path: 'cadastro', component: CadastroComponent  },
-  { path: 'rodape', component: FooterComponent  }
+  { path: 'rodape', component: FooterComponent  },
+  { path: 'statusPedido', component: StatusPedidoComponent  },
+  { path: 'formaDePagamento', component: FormaDePagamentoComponent  },
+  { path: 'revisao', component: RevisaoComponent  }
   
   
 

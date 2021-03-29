@@ -1,0 +1,18 @@
+li {
+  list-style-type: none;
+}
+
+.menu { 
+  border: 1px solid red;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu__lista {
+  margin-left: 30px;
+  border: 1px solid red;
+  font-size: 30px;
+  margin-top: 10%;
+}

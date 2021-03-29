@@ -15,6 +15,8 @@ import { FooterComponent } from './shared/card/footer/footer.component';
 import { RevisaoComponent } from './checkout/revisao/revisao.component';
 import { FormaDePagamentoComponent } from './checkout/forma-de-pagamento/forma-de-pagamento.component';
 import { StatusPedidoComponent } from './checkout/status-pedido/status-pedido.component';
+import { AuthService } from './autenticacao/login/auth.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,14 +31,15 @@ import { StatusPedidoComponent } from './checkout/status-pedido/status-pedido.co
     FooterComponent,
     RevisaoComponent,
     FormaDePagamentoComponent,
-    StatusPedidoComponent
+    StatusPedidoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
